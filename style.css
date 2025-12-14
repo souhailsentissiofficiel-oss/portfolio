@@ -1,14 +1,15 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background: #f4f4f4;
-  text-align: center;
+  background: #f2f2f2;
+  color: #333;
 }
 
 header {
-  background: #222;
+  background: #111;
   color: white;
-  padding: 40px;
+  text-align: center;
+  padding: 40px 20px;
 }
 
 section {
@@ -18,19 +19,25 @@ section {
   border-radius: 10px;
 }
 
+h2 {
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 10px;
+}
+
 ul {
   list-style: none;
   padding: 0;
 }
 
 li {
-  background: #ddd;
-  margin: 8px;
+  background: #eee;
+  margin: 8px 0;
   padding: 8px;
   border-radius: 5px;
 }
 
 footer {
-  margin-top: 20px;
-  color: #555;
+  text-align: center;
+  padding: 15px;
+  color: #666;
 }
